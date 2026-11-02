@@ -17,11 +17,13 @@ def resta(a, b):
 
 
 def multiplicacion(a, b):
-    pass
+    return a * b
 
 
 def division(a, b):
-    pass
+    if b == 0:
+        raise ValueError("No se puede dividir entre cero.")
+    return a / b
 
 
 def mostrarResultados(resultado):
